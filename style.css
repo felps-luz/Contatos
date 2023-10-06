@@ -1,0 +1,74 @@
+textarea{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    resize: none;
+    height: 30px;
+    background-color: rgb(47, 47, 71);
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+h1{
+    font: 700 40px 'lucida',sans-serif ;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, rgb(20, 0, 198), rgb(23, 22, 22) ,rgb(0, 21, 83) );
+}
+.caixa{
+    background-color: rgb(32, 32, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+}
+input{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(47, 47, 71);
+    border: 0;
+    color: white;
+    border-radius: 3px;
+}
+button{
+    font: 600 15px 'lucida',sans-serif ;
+    background-color: rgb(20, 0, 198);
+    height: 25px;
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+ul{
+    color: white;
+    font: 600 16px 'lucida',sans-serif ;
+}
+form{
+    display: flex;
+    align-items: center;
+
+}
+.prencher{
+    display: flex;
+}
+.sim, .nao{
+    display: flex;
+    flex-direction: column;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+}

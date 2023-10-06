@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <div class="caixa">
+        <h1>contatos: </h1>
+
+    <form id="contato-form">
+        <div class="prencher">
+        <div class="sim">
+        <input type="text" id="nome" placeholder="nome" required>
+        <input type="email" id="email" placeholder="email" required>
+        </div>
+        <div class="nao">
+        <input type="tel" id="tel" placeholder="telefone" required>
+        <textarea id="comit" placeholder="comentario" ></textarea>
+        </div>
+    </div>
+        
+     
+        <div class="botoes">
+        <button type="submit">adicionar contato</button>
+        <button id="mostrar-contatos">mostrar-contatos</button>
+        <button id="ocultar-contatos">ocultar-contatos</button>
+    </div>
+
+    </form>
+
+    
+
+</div>
+    <ul id="contato-lista"></ul>        
+    
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
